@@ -4,9 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/theme.css">
     <title>My CV</title>
 </head>
-<body>
-    <h1>Egor Bogdanovich</h1>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#about-me">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#strengths" class="nav-link">Strengths</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="my-photo">
+                <img src="img/photo1.jpg" alt="my photo" class="photo" >
+                <div class="main-title">
+                    <h1 class="section-title-main">Egor Bogdanovich</h1>
+                    <h3 class="title-work">Front-End developer</h3>
+                </div>
+            </section>
+        </div>
+        <section class="section-about-me" id="about-me">
+            <h2 class="about-me-title">
+                About me
+            </h2>
+            <p class="paragraph">One day you realize that what you did yesterday does not bring you joy and peace of mind and you need to move forward in order to learn more new and interesting things. The comfort zone in which you are ceases to be favorable for you and prevents you from rising to your feet.</p>
+
+        </section>
+        <section class="section-skills" id="skills">
+            <h2 class="skills-title">Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-item">
+                    Web-development: HTML5, CSS3, JavaScript
+                </li>
+                <li class="skills-item">
+                    Version control: GIT, Github
+                </li>
+                <li class="skills-item">
+                    Graphics: Figma
+                </li>
+            </ul>
+        </section>
+        <Section class="section-strengths" id="strengths">
+            <h2 class="strengths-title">Strengths</h2>
+            <ul class="strengths-list">
+                <li class="strengths-item">Sociable</li>
+                <li class="strengths-item">Quick learner</li>
+                <li class="strengths-item">Hardworking</li>
+                <li class="strengths-item">Responsible</li>
+                <li class="strengths-item">Goal-oriented</li>
+            </ul>
+
+        </Section>
+        <section class="section-education" id="education">
+            <h2 class="education-title">Education</h2>
+            <p class="paragraph">Gymnasium-College of Arts in Molodechno, Belarus</p>
+        </section>
+        <section class="section-code" id="code">
+            <h2 class="title-code">Code</h2>
+            <pre class="pre">
+        function isDivideBy(number, a, b) {
+        return number % a === 0 && number % b === 0;
+            </pre>
+        </section>
+        <section class="section-contacts" id="contacts">
+            <h2 class="title-contacts">Contacts</h2>
+            <ul>
+                <li class="contacts-item">
+                    Discord:
+                    <br>
+                    GeneralGoga (EgorBogdanovich#9349)
+                </li>
+                <li class="contacts-item">
+                    Email:
+                    <br>
+                    <a href="mailto:BogdanovichEgor@mail.ru" class="mail" target="_blank">BogdanovichEgor@mail.ru</a>
+                </li>
+                
+                <li class="contacts-item">
+                    Address:
+                    <br>
+                    Molodechno, Belarus
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/EBogdanovich" class="footer__github" target="_blank">My GitHub</a>
+        <p class="footer__year">2021-2022</p>
+        <a href="https://rs.school/js/" class="footer__rsschool"><img src="img/rs_school_js.svg " alt="Rsshool" width="86" height="32"></a>
+
+    </footer>
+
+    
 </body>
 </html>
