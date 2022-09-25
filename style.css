@@ -14,7 +14,7 @@ html {
     margin: 0 auto;
 }
 .header{
-    background-color:darkcyan;
+    background-color: darkcyan;
 }
 .nav{
     margin: 0 auto;
@@ -22,7 +22,7 @@ html {
 }
 .nav-list{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
@@ -118,7 +118,7 @@ a{
     padding-inline-start: 40px;
 }
 .pre{
-    text-align:center;
+    text-align: center;
     margin: 0;
     font-size: 15px;
 }
@@ -154,7 +154,7 @@ a{
     background-position: 0 0;
 }
 .footer__github{
-    color:darkkhaki;
+    color: darkkhaki;
     position: relative;
     padding-left: 40px;
 }
